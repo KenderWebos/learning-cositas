@@ -1,0 +1,73 @@
+*{
+    /* padding: 8px; */
+}
+
+.icon-new{
+    font-size: 20px;
+    color: #1da1f2;
+    width:20px;
+}
+
+.buttons-new{
+    border-radius: 20px;
+    width: 300px;
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+}
+
+.imagen-portada{
+    margin:0px;
+    padding:0px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.link-redirection{
+    text-decoration: none;
+    color: #1da1f2;
+    cursor:grab;
+
+    background-color: red;
+}
+
+.link-redirection:hover{
+    background-color: blue;
+
+    transition:2s;
+}
+
+.cube{
+    margin: 5px;
+
+    width: 60px;
+    height: 60px;
+
+    align-items: center;
+}
+
+.cube:hover{
+    /* rotar el cubo 180 grados */
+    cursor: pointer;
+    transform: rotate(20deg);
+    transition:0.1s;
+}
+
+.icon{
+    width: 20px;
+}
+
+.btn-login{
+    border-radius: 20px;
+    width: 300px;
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+}
